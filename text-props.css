@@ -1,0 +1,64 @@
+.txt-align-left {
+    text-align: left;
+}
+
+.txt-align-right {
+    text-align: right;
+}
+
+.txt-align-center {
+    text-align: center;
+}
+
+.txt-align-justify {
+    text-align: justify;
+}
+
+.txt-align-start {
+    text-align: start;
+}
+
+.txt-align-end {
+    text-align: end;
+}
+
+.txt-decor-overLine {
+    text-decoration: overline;
+}
+
+.txt-decor-lineThr {
+    text-decoration: line-through;
+}
+
+.txt-decor-underLine {
+    text-decoration: underline;
+}
+
+.txt-decor-under-over-line {
+    text-decoration: underline overline;
+}
+
+.txt-decor-style-solid {
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.txt-decor-style-double {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.txt-decor-style-dotted {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.txt-decor-style-dashed {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.txt-decor-style-wavy {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
