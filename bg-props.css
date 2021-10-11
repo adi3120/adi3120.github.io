@@ -1,0 +1,116 @@
+.bg-color{
+    background-color: rebeccapurple;
+}
+.bg-image{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/24701-nature-natural-beauty.jpg/1280px-24701-nature-natural-beauty.jpg");
+    background-size:1920px 400px
+}
+.bg-attach-Scroll{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/24701-nature-natural-beauty.jpg/1280px-24701-nature-natural-beauty.jpg");
+    background-attachment: scroll;
+    background-size:cover;
+}
+.bg-attach-fixed{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/24701-nature-natural-beauty.jpg/1280px-24701-nature-natural-beauty.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+}
+.bg-attach-local{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/24701-nature-natural-beauty.jpg/1280px-24701-nature-natural-beauty.jpg");
+    background-attachment: local;
+    background-size:1920px 100px;
+}
+.paralax{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg-blendMode-normal{
+    background-image: url("https://media.gettyimages.com/videos/background-particles-loop-video-id941050238?s=640x640"),url("https://i.ytimg.com/vi/-X4wWbBGvtQ/maxresdefault.jpg");
+    background-blend-mode: normal;
+    background-size: cover,cover;
+    background-repeat: no-repeat,no-repeat;
+}
+.bg-blendMode-multiply{
+    background-image: url("https://media.gettyimages.com/videos/background-particles-loop-video-id941050238?s=640x640"),url("https://i.ytimg.com/vi/-X4wWbBGvtQ/maxresdefault.jpg");
+    background-blend-mode: multiply;    
+    background-size: cover,cover;
+    background-repeat: no-repeat,no-repeat;
+
+}
+.bg-blendMode-screen{
+    background-image: url("https://media.gettyimages.com/videos/background-particles-loop-video-id941050238?s=640x640"),url("https://i.ytimg.com/vi/-X4wWbBGvtQ/maxresdefault.jpg");
+    background-blend-mode: screen;  
+    background-size: cover,cover; 
+    background-repeat: no-repeat,no-repeat;
+
+}
+.bg-blendMode-overlay{
+    background-image: url("https://media.gettyimages.com/videos/background-particles-loop-video-id941050238?s=640x640"),url("https://i.ytimg.com/vi/-X4wWbBGvtQ/maxresdefault.jpg");
+    background-blend-mode: overlay; 
+    background-size: cover,cover; 
+    background-repeat: no-repeat,no-repeat;
+
+
+}
+.bg-blendMode-darken{
+    background-image: url("https://media.gettyimages.com/videos/background-particles-loop-video-id941050238?s=640x640"),url("https://i.ytimg.com/vi/-X4wWbBGvtQ/maxresdefault.jpg");
+    background-blend-mode: darken;  
+    background-size: cover,cover; 
+    background-repeat: no-repeat,no-repeat;
+
+
+}
+.bg-blendMode-lighten{
+    background-image: url("https://media.gettyimages.com/videos/background-particles-loop-video-id941050238?s=640x640"),url("https://i.ytimg.com/vi/-X4wWbBGvtQ/maxresdefault.jpg");
+    background-blend-mode: lighten;  
+    background-size: cover,cover; 
+    background-repeat: no-repeat,no-repeat;
+
+      
+}
+.bg-blendMode-colorDodge{
+    background-image: url("https://media.gettyimages.com/videos/background-particles-loop-video-id941050238?s=640x640"),url("https://i.ytimg.com/vi/-X4wWbBGvtQ/maxresdefault.jpg");
+    background-blend-mode: color-dodge;    
+    background-size: cover,cover; 
+    background-repeat: no-repeat,no-repeat;
+
+
+}
+.bg-blendMode-saturation{
+    background-image: url("https://media.gettyimages.com/videos/background-particles-loop-video-id941050238?s=640x640"),url("https://i.ytimg.com/vi/-X4wWbBGvtQ/maxresdefault.jpg");
+    background-blend-mode: saturation;  
+    background-size: cover,cover; 
+    background-repeat: no-repeat,no-repeat;
+
+
+}
+.bg-blendMode-color{
+    background-image: url("https://media.gettyimages.com/videos/background-particles-loop-video-id941050238?s=640x640"),url("https://i.ytimg.com/vi/-X4wWbBGvtQ/maxresdefault.jpg");
+    background-blend-mode: color;  
+    background-size: cover,cover; 
+    background-repeat: no-repeat,no-repeat;
+
+
+}
+.bg-blendMode-lumin{
+    background-image: url("https://media.gettyimages.com/videos/background-particles-loop-video-id941050238?s=640x640"),url("https://i.ytimg.com/vi/-X4wWbBGvtQ/maxresdefault.jpg");
+    background-blend-mode: luminosity;   
+    background-size: cover,cover; 
+    background-repeat: no-repeat,no-repeat;
+}
+.bg-clip-borderBox{
+    background-clip: border-box;
+}
+h1{
+    color:white;
+}
+
+
+
+
+
+
