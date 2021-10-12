@@ -62,3 +62,20 @@
     text-decoration: underline;
     text-decoration-style: wavy;
 }
+
+.txt-lttr-spc {
+    letter-spacing: 10px;
+}
+
+.txt-shadow-normal {
+    text-shadow: 2px 2px red;
+}
+
+.txt-shadow-blur {
+    text-shadow: 2px 2px 5px red;
+}
+
+.txt-shadow-red-green-neon-glow {
+    color: white;
+    text-shadow: 2px 2px 3px red, 2px -2px 5px green;
+}
