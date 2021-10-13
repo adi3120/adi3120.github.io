@@ -1,0 +1,62 @@
+        .margin {
+            background-color: rgb(240, 168, 34);
+            height: 400px;
+            width: 600px;
+            text-align: center;
+        }
+        
+        .margin .border {
+            background-color: rgb(223, 189, 126);
+            height: 300px;
+            width: 500px;
+            text-align: center;
+            margin-left: 50px;
+        }
+        
+        .border .padding {
+            background-color: olivedrab;
+            height: 200px;
+            width: 400px;
+            text-align: center;
+            margin-left: 50px;
+        }
+        
+        .padding .content {
+            background-color: blue;
+            height: 100px;
+            width: 300px;
+            text-align: center;
+            margin-left: 50px;
+        }
+        
+        .content h1 {
+            font-size: 25px;
+        }
+        
+        .noBox1 {
+            width: 700px;
+            height: 100px;
+            border: 2px solid red;
+        }
+        
+        .noBox2 {
+            width: 700px;
+            height: 100px;
+            border: 2px solid red;
+            padding: 30px;
+        }
+        
+        .box-sizing-brdBox1 {
+            width: 700px;
+            height: 100px;
+            border: 2px solid red;
+            box-sizing: border-box;
+        }
+        
+        .box-sizing-brdBox2 {
+            width: 700px;
+            height: 100px;
+            border: 2px solid red;
+            box-sizing: border-box;
+            padding: 30px;
+        }

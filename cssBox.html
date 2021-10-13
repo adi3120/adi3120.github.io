@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="box-props.css">
+</head>
+
+<body>
+    <h1>Without the CSS box-sizing</h1>
+    <h2> By default the width and height of an element is calculated like this<br> <br> width+ padding+border=actual width of an element<br> <br> height + padding +border=actual height of an element<br><br></h2>
+
+    <div class="margin">
+        <h1>Margin h: 50 px, w: 50px</h1>
+        <div class="border">
+            <h1>Border h: 50 px, w: 50px</h1>
+            <div class="padding">
+                <h1>Padding h: 50 px, w: 50 px</h1>
+                <div class="content">
+                    <h1>Content h: 100px, w:100px</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Total width of content= 100+50+50=200px</h1><br>
+    <h1>Total height of content= 100+50+50=200px</h1><br>
+
+    <h1>With CSS box-sizing Property<br>
+    </h1>
+    <h2>The box box-sizing property allows us to include the padding and border in an element's total width and height.<br><br> If you set box-sizing: border box; on an element, padding and border are included in the width and height<br><br> Basically if
+        you don't use box-sizing property and use padding property, then it will add an extra padding
+        <b> over the existing padding</b>, which we sometimes don't need. Thus to just edit the existing padding we use
+        <b>box-sizing :)</b>
+    </h2>
+
+    <br>
+    <div class="noBox1">
+        <h1>
+            No box-sizing applied and no padding added</h1>
+    </div><br>
+    <div class="noBox2">
+        <h1>
+            No box-sizing applied but padding 30px.
+        </h1>
+    </div><br>
+    <div class="box-sizing-brdBox1">
+        <h1>
+            box-sizing-border-box Without padding
+        </h1>
+    </div><br>
+    <div class="box-sizing-brdBox2">
+        <h1>
+            box-sizing-border-box with padding 30px
+        </h1>
+    </div><br>
+</body>
+
+</html>
